@@ -23,6 +23,7 @@ export function ChooseTeam(): React.JSX.Element {
 
     function clearTeam() {
         setTeam([]);
+        setAllOptions(PEOPLE);
     }
 
     return (
